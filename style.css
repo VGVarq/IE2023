@@ -1,24 +1,24 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:#84CDD6
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #84CDD6;
 }
 
 header {
     background-color: #333;
-    color: white;
-    text-align: center;
+    color: pink;
+    text-align: :r;
     padding: 1rem;
 }
 
 nav {
     background-color: #444;
-    color: white;
+    color: pink;
     text-align: center;
     padding: 1rem;
 }
@@ -34,7 +34,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: pink;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -45,8 +45,9 @@ nav a:hover {
 
 section {
     padding: 2rem;
-    background-color: white;
+    background-color: pink;
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
