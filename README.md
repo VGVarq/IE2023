@@ -17,15 +17,15 @@ Esta guía de viajes tiene como objetivo proporcionar información detallada sob
    - Museo del Louvre
    - Barrio de Montmartre
 
-2. Kioto, Japón
-   - Templo Kinkaku-ji
-   - Santuario Fushimi Inari Taisha
-   - Bosque de Bambú de Arashiyama
+2. Buenos Aires, Argentina
+   - Caminito, La Boca
+   - Estadio Monumental Antonio Vespucio
+   - Puerto Madero
 
-3. Ciudad del Cabo, Sudáfrica
-   - Montaña de la Mesa
-   - Península del Cabo
-   - Jardín Botánico Kirstenbosch
+3. Asunción Paraguay
+   - La costanera
+   - Conmebol
+   - Campo de Golf
 
 ## Cómo Contribuir
 ¡Agradecemos tus contribuciones para hacer que esta guía sea aún mejor! Si tienes información adicional sobre destinos, consejos de viaje o fotos de calidad, siéntete libre de hacer una solicitud de extracción (pull request).
