@@ -66,4 +66,21 @@ class Bird {
     pop();
   }
 }
+const countdownDate = new Date("2023-12-31T23:59:59").getTime(); // Fecha objetivo
+
+const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = countdownDate - now;
+
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("timer").innerHTML = `${hours}:${minutes}:${seconds}`;
+
+    if (distance < 0) {
+        clearInterval(timer);
+        document.getElementById("timer").innerHTML = "¡Tiempo terminado!";
+    }
+}, 1000);
 
